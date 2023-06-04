@@ -1,0 +1,25 @@
+body {
+  background-color: #F2F6FF;
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  background-color: #FFFFFF;
+  max-width: 1200px;
+  margin: 30px auto 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+h2 {
+  font-weight: 400;
+}
+.time-wraper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.time-block {
+  height: 200px;
+}
