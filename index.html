@@ -7,7 +7,6 @@
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
   <title>Practice Finnish</title>
-  <script src="script.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -16,21 +15,27 @@
     <div class="time-wraper">
       <div class="time-block">
         <h2>Kuka?</h2>
-        <div id="who-input"></div>
+        <div id="who-input" class="tb-option"></div>
+        <button class="update-btn" onclick="get_who()"><img src="refresh.png" alt=""></button>
       </div>
       <div class="time-block">
         <h2>Mitä tekee?</h2>
-        <div id="verbi-input"></div>
+        <div id="verbi-input" class="tb-option"></div>
+        <button class="update-btn" onclick="get_verbi()"><img src="refresh.png" alt=""></button>
       </div>
       <div class="time-block">
         <h2>Kello</h2>
-        <div id="kello-input"></div>
+        <div id="kello-input" class="tb-option"></div>
+        <button class="update-btn" onclick="get_kello()"><img src="refresh.png" alt=""></button>
       </div>
       <div class="time-block">
         <h2>Ehto</h2>
-        <div id="ehto-input"></div>
+        <div id="ehto-input" class="tb-option"></div>
+        <button class="update-btn" onclick="get_ehto()"><img src="refresh.png" alt=""></button>
       </div>
     </div>
+    <button onclick="get_all()">Vaihda kaikki</button>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
